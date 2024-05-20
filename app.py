@@ -55,7 +55,7 @@ with col2:
     h5_file = st.file_uploader("Upload Filtered Feature Barcode Matrix (HDF5)", type="h5")
     # Display information points within a light blue box
     st.markdown("""
-    <div style="background-color:#f7c36a; padding: 5px; border-radius: 5px; display: inline-block;">
+    <div style="background-color:#F7BF6F; padding: 5px; border-radius: 5px; display: inline-block;">
         <p style="font-size: 2px; text-align:center; color:black;"> 
             <h6>The dataset used was <a href="https://support.10xgenomics.com/single-cell-multiome-atac-gex/datasets/1.0.0/pbmc_granulocyte_sorted_10k">PBMC from a healthy donor - granulocytes removed through cell sorting (10k)<h6><br>
             <ul>
